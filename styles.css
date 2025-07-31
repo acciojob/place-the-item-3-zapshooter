@@ -1,2 +1,11 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;                   /* Allow items to wrap to new rows instead of squashing */
+  justify-content: space-evenly;     /* Evenly place all items in the row with equal space around them */
+  align-items: flex-start;           /* Align items to the top of each row for consistent wrapping */
+  width: 100vw;                      /* Full viewport width to span the screen */
+  box-sizing: border-box;            /* Ensure padding doesn't affect width */
+  padding: 0;                        /* No padding so items can align close to edges */
+}
 
 /* Your CSS Code here. */
